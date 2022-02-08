@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>zzZ...</title>
+<!--     The meta elements of this document describe the document and its keywords.-->
+    <meta charset="utf-8">
+<!-- https://www.w3schools.com/charsets/ref_html_utf8.asp-->
+    <meta name="viewport" content="width=device-width, user-scalable=yes">
+<!--    https://www.w3schools.com/css/css_rwd_viewport.asp-->
+    <meta name="description" content="zzz">
+    <meta name="author" content="Shiloh Xie">
+    <meta name="keywords" content="coding design website">
+<!--   The meta elements of this document describe the document and its keywords.-->
+    <link rel="shortcut icon" href="img/bed.png">
+<style type="text/css">
+.lamp img{
+	width: 180px;
+	position: absolute;
+    bottom: 50px;
+    right: 50px;
+}
+ body {
+  background-color: black;
+  font-family: cursive;
+}
+.lamp button{
+	color: #6633ff;
+	font-family: "Helvetica Neue", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    font-size: 15px;
+    line-height: 1.0em;
+    align-items: center;
+    position: absolute;
+    bottom: 150px;
+    right: 100px;
+}
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+.glow1 {
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+	from {
+  	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to { 
+  	text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+</style>
+</head>
+<body>
+	<h1 class="glow">zzZ...zzZz...</h1>
+	        <h4 class="glow1"><span id="date-time"></h4>  
+        <script>var dt = new Date(); document.getElementById('date-time').innerHTML=dt;</script>
+	<p class="glow1">I should wake up at
+		<input type="time" id="appt" name="appt"
+       min="09:00" max="18:00" required ></p>
+      <div class="lamp">
+      	<img src="img/lamp.png">
+      	<a href="homepage.html"><button>TURN ON</button></a>
+      </div>
+	
+</body>
+</html>

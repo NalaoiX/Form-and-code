@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>wElCoMe bACk</title>
+<!--     The meta elements of this document describe the document and its keywords.-->
+    <meta charset="utf-8">
+<!-- https://www.w3schools.com/charsets/ref_html_utf8.asp-->
+    <meta name="viewport" content="width=device-width, user-scalable=yes">
+<!--    https://www.w3schools.com/css/css_rwd_viewport.asp-->
+    <meta name="description" content="Home page for Web Production 1">
+    <meta name="author" content="Shiloh Xie">
+    <meta name="keywords" content="wElCoMe,coding design website">
+<!--   The meta elements of this document describe the document and its keywords.-->
+    <link rel="shortcut icon" href="img/house.png">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,900;1,500&display=swap" rel="stylesheet">
+
+<style type="text/css">
+.pagetop {
+    border: 1rem solid #ff2457;
+    background-color: #EBA4D2;
+    padding: .5rem;
+    display: felx;
+    flex-direction: row;
+    text-align: center;
+}
+.pagetop img{
+	width: 50%;
+}
+.pagetop p{
+	font-family: 'Crimson Pro', Black;
+    font-weight: bolder;
+    font-size: 4.75em;
+    margin-right: 20px;
+    letter-spacing: .1em;
+    -webkit-text-fill-color: #fff2f2;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #ff2457;
+    color: #fff;
+    margin-top: 3;
+    text-shadow: 2px 2px #fec3e0, 4px 4px #ff77b9, 6px 6px #ff1f8f
+
+}
+.navigationright{
+    display: flex;
+    flex-direction: row;
+}
+.navigation{
+    display: flex;
+    flex-direction: column;
+}
+.navigation{
+	background-color: #fff2f2;
+	padding: 80px;
+	justify-content: space-between;
+	align-items: left;
+	width: 89.5%;
+}
+.navigation p{
+    color: #ff2457;
+}
+.navigation select{
+    border: none;
+    color: #ff2457;
+    font-size: .9rem;
+    padding: 2px 5px;
+}
+.navigation input{
+    border: none;
+    color: #ff2457;
+}
+.navigation h1{
+    font-family: "curisive", sans-serif;
+	color: #21174B;
+    font-size: 15px;
+}
+.navigationright img{
+    width: 20px;
+    height: 20px;
+    align-items: right;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+p{    
+	font-family: "curisive", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    font-size: 15px;
+    line-height: 1.0em;
+}
+h4{
+    color: #ff2457;
+	font-family: "Helvetica Neue", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    font-size: 12px;
+    line-height: 1.0em;
+}
+	
+button {
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 3px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1 {
+  background-color: white; 
+  color: #ff2457; 
+  border: 2px solid #ff2457;
+}
+.button1:hover {
+  background-color: #ff2457;
+  text-decoration-color: white;
+  font-size:15px;
+  color: white;
+}
+.button2{
+  background-color: white; 
+  color: #ff2457; 
+  border: 2px solid #ff2457;
+
+}
+.button2:hover {
+  background-color: #ff2457;
+  color: white;
+}
+.label {
+    display: block;
+    font: 2rem 'Fira Sans', fantasy;
+}
+
+
+</style>
+</head>
+
+<body class="color--word" data-new-gr-c-s-check-loaded="14.1047.0" data-gr-ext-installed style="overflow: visible;">
+	<div class="pagetop">
+		<p><img src="https://data.whicdn.com/images/315861138/original.gif" alt="heart pixel png shared by Ms. Manda on We Heart It" jsaction="load:XAeZkd;" jsname="HiaYvf" class="n3VNCb" data-noaft="1" style="width: 36px; height: 34px; margin: 0px;">
+            MY CUTE DIARY
+        <img src="https://data.whicdn.com/images/315861138/original.gif" alt="heart pixel png shared by Ms. Manda on We Heart It" jsaction="load:XAeZkd;" jsname="HiaYvf" class="n3VNCb" data-noaft="1" style="width: 36px; height: 34px; margin: 0px;"></p>
+	</div>
+    <br>
+	<div class="navigation">
+        <p><input type="time" id="appt" name="appt"
+       min="09:00" max="18:00" required></p>
+        <div class="navigationright">
+            <a href="heart.html"><img src="img/pik.png"></a>
+        </div>
+        
+        <p>Dear Diary, </p>
+        <p>Today is a 
+        <select name="weather" id="weather-select">
+            <option value=""></option>
+            <option value="rainy">&#127783;</option>
+            <option value="cloudy">&#127780;</option>
+            <option value="sunny">&#9728;</option>
+            <option value="snowy">&#9927;</option>
+        </select>
+            day, I'm very 
+            <select name="mood" id="mood-select">
+            <option value=""></option>
+            <option value="thirsty">happy</option>
+            <option value="boring">boring</option>
+            <option value="sleepy">sleepy</option>
+        </select>
+        .
+        So I'm planning to 
+        <a href="drink.html"><button class="button button2">
+        take some drink 
+        </button></a>
+        ,
+        <a href="place.html"><button class="button button2">
+        go somewhere 
+        </button></a> 
+        or 
+        <a href="sleep.html"><button class="button button2"> 
+        go to sleep
+        </button></a>   
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h4><span id="date-time"></h4>  
+        <script>var dt = new Date(); document.getElementById('date-time').innerHTML=dt;</script>
+	</div>
+	
+
+
+</body>
+</html>
+
+

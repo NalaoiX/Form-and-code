@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>lEt's tAkE sOMe aLcOhOL</title>
+<!--     The meta elements of this document describe the document and its keywords.-->
+    <meta charset="utf-8">
+<!-- https://www.w3schools.com/charsets/ref_html_utf8.asp-->
+    <meta name="viewport" content="width=device-width, user-scalable=yes">
+<!--    https://www.w3schools.com/css/css_rwd_viewport.asp-->
+    <meta name="description" content="milk line">
+    <meta name="author" content="Shiloh Xie">
+    <meta name="keywords" content="coding design website">
+<!--   The meta elements of this document describe the document and its keywords.-->
+    <link rel="shortcut icon" href="img/drink.png">
+<style type="text/css">
+ body {
+  background-color: black;
+  font-family: cursive;
+}
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+.beer img{
+	width: 200px;
+	height: 200px;
+	align-items: left;
+    position: relative;
+    bottom: 100px;
+    left: 550px;    
+    animation-name: example1;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+.beer1 img{
+	width: 200px;
+	height: 200px;
+	align-items: left;
+    position: relative;
+    bottom: 100px;
+    left: 550px;    
+    animation-name: example3;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+.alo img{
+	width: 200px;
+	height: 200px;
+	align-items: left;
+    position: relative;
+    bottom: 100px;
+    left: 550px;    
+    animation-name: example2;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes glow {
+	from {
+  	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to { 
+  	text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+@keyframes example1 {
+  0%   {left:0px; top:0px;}
+  25%  {left:250px; top:250px;}
+  50%  {left:600px; top:-500px;}
+  75%  {left:750px; top:350px;}
+  100% {left:0px; top:0px;}
+}
+@keyframes example2 {
+  0%   {left:500px; top:-100px;}
+  25%  {left:-50px; top:-350px;}
+  50%  {left:620px; top:-320px;}
+  75%  {left:950px; top:250px;}
+  100% {left:500px; top:-100px;}
+}
+@keyframes example3 {
+  0%   {left:900px; top:-500px;}
+  25%  {left:450px; top:150px;}
+  50%  {left:220px; top:20px;}
+  75%  {left:620px; top:-650px;}
+  100% {left:900px; top:-500px;}
+}
+</style>
+</head>
+<body>
+
+	<h1 class="glow">HERE ARE SOME DRINK</h1>
+	<div class="3">
+	<img style="max-width:min(500px, 85vw)" src="img/shine.gif" align="left">
+	<img style="max-width:min(500px, 85vw)" src="img/shine.gif" align="right">
+	</div>
+	<div class="beer">
+	<a href="daz.html">
+		<img src="img/beer.png">
+	</a>
+	</div>
+	<div class="alo">
+	<a href="daz.html">
+		<img src="img/alo.png">
+	</a>
+	</div>
+	<div class="beer1">
+	<a href="daz.html">
+		<img src="img/beer.png">
+	</a>
+	</div>
+</body>
+</html>
